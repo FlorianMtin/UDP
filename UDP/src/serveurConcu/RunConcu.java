@@ -1,7 +1,8 @@
+package serveurConcu;
 import java.net.DatagramSocket;
 import java.net.SocketException;
 import java.util.ArrayList;
-
+import client.ObjetConnect;
 
 public class RunConcu {
 

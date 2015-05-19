@@ -1,10 +1,11 @@
+package serveurConcu;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.SocketException;
 import java.util.ArrayList;
-
+import client.ObjetConnect;
 
 public class ServeurConcurrent  extends ObjetConnect  {
 

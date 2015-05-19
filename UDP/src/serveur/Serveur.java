@@ -1,9 +1,10 @@
+package serveur;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 
-
+import client.ObjetConnect;
 public class Serveur extends ObjetConnect {
 
 	public Serveur(DatagramSocket ds) {
